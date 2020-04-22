@@ -8,24 +8,27 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>course</artifactId>
+    <artifactId>gateway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>course</name>
-    <description>Spring Boot Course</description>
+    <name>gateway</name>
+    <description>Gateway</description>
+
+    <properties>
+        <java.version>11</java.version>
+    </properties>
 
     <dependencies>
 
         <dependency>
-            <groupId>academy.devdojo.youtube</groupId>
-            <artifactId>core</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
         </dependency>
 
     </dependencies>
 
+
     <build>
-        <finalName>course</finalName> <!--Nome usado na hora de gerar o .jar-->
+        <finalName>Gateway</finalName> <!--Nome usado na hora de gerar o .jar-->
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

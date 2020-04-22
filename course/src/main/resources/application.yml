@@ -1,5 +1,5 @@
 server:
-    port: 8080
+    port: 8082
 
 spring:
   application:
@@ -17,6 +17,15 @@ spring:
     url: jdbc:mysql://localhost:3306/devdojo?allowPublicKeyRetrieval=true&sslMode=DISABLED
     username: root
     password: devdojo
+
+eureka:
+  instance:
+    prefer-ip-adress: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka/
+    fetch-registry: true
+    register-with-eureka: true
 
 volumes:
   microservices-devdojo:
