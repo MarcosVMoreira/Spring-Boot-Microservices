@@ -6,3 +6,13 @@ docker-compose -f stack.yml up
 
 Ordem de execução:
 Discovery > gateway e authentication > resto
+
+
+-----------
+
+Portas:
+
+gateway: 8080
+discovery: 8081
+course: 8082
+auth: 8083

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>academy.devdojo.youtube</groupId>
+        <artifactId>devdojo-microservices</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>token</artifactId>
+    <name>token</name>
+
+    <properties>
+        <java.version>11</java.version>
+        <devdojo-core.version>0.0.1-SNAPSHOT</devdojo-core.version>
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>academy.devdojo.youtube</groupId>
+            <artifactId>core</artifactId>
+            <version>${devdojo-core.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+</project>

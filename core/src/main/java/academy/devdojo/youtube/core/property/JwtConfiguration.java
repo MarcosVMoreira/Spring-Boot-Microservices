@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
 @Getter
 @Setter
 @ToString
-public class JWTConfiguration {
+public class JwtConfiguration {
 
     private String loginUrl = "/login/**";
 
