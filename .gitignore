@@ -210,3 +210,21 @@ springboot-essentials/.mvn/wrapper/MavenWrapperDownloader.java
 springboot-essentials/mvnw.cmd
 
 springboot-essentials/src/main/resources/application.properties
+
+.idea/
+
+course/.mvn/wrapper/
+
+discovery/.mvn/wrapper/
+
+gateway/.mvn/wrapper/
+
+*.iml
+
+*.cmd
+
+course/mvnw
+
+discovery/mvnw
+
+gateway/mvnw

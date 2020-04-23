@@ -20,9 +20,16 @@
 
     <properties>
         <spring-cloud.version>Hoxton.SR3</spring-cloud.version>
+        <nimbus-rose.version>7.0</nimbus-rose.version>
     </properties>
 
     <dependencies>
+
+        <dependency>
+            <groupId>com.nimbusds</groupId>
+            <artifactId>nimbus-jose-jwt</artifactId>
+            <version>${nimbus-rose.version}</version>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>

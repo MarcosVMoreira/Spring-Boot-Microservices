@@ -1,1 +1,8 @@
 docker-compose -f stack.yml up
+
+
+-----------
+
+
+Ordem de execução:
+Discovery > gateway e authentication > resto
