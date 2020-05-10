@@ -29,3 +29,7 @@ eureka:
 
 volumes:
   microservices-devdojo:
+
+jwt:
+  config:
+    type: signed

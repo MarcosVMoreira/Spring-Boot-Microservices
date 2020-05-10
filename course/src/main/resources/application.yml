@@ -18,6 +18,10 @@ spring:
     username: root
     password: devdojo
 
+jwt:
+  config:
+    type: signed
+
 eureka:
   instance:
     prefer-ip-adress: true
